@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/qaqorz/pikagu/cpptools/csapp/main.cpp
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+unistd.h
+-
+cstdio
+-
+
