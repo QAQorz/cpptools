@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/qaqorz/pikagu/cpptools/main.cpp
+sys/types.h
+-
+sys/ipc.h
+-
+sys/sem.h
+-
+unistd.h
+-
+cstdio
+-
+cstdlib
+-
+semaphore.h
+-
+wait.h
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/binary_heap.dir/binary_heap.cpp.o CMakeFiles/binary_heap.dir/qaq_priority_queue.cpp.o  -o binary_heap 

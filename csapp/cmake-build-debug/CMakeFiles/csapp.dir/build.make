@@ -57,27 +57,27 @@ include CMakeFiles/csapp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/csapp.dir/flags.make
 
-CMakeFiles/csapp.dir/main.cpp.o: CMakeFiles/csapp.dir/flags.make
-CMakeFiles/csapp.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qaqorz/pikagu/cpptools/csapp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/csapp.dir/main.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/csapp.dir/main.cpp.o -c /home/qaqorz/pikagu/cpptools/csapp/main.cpp
+CMakeFiles/csapp.dir/10-7.cpp.o: CMakeFiles/csapp.dir/flags.make
+CMakeFiles/csapp.dir/10-7.cpp.o: ../10-7.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qaqorz/pikagu/cpptools/csapp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/csapp.dir/10-7.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/csapp.dir/10-7.cpp.o -c /home/qaqorz/pikagu/cpptools/csapp/10-7.cpp
 
-CMakeFiles/csapp.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/csapp.dir/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qaqorz/pikagu/cpptools/csapp/main.cpp > CMakeFiles/csapp.dir/main.cpp.i
+CMakeFiles/csapp.dir/10-7.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/csapp.dir/10-7.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qaqorz/pikagu/cpptools/csapp/10-7.cpp > CMakeFiles/csapp.dir/10-7.cpp.i
 
-CMakeFiles/csapp.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/csapp.dir/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qaqorz/pikagu/cpptools/csapp/main.cpp -o CMakeFiles/csapp.dir/main.cpp.s
+CMakeFiles/csapp.dir/10-7.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/csapp.dir/10-7.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qaqorz/pikagu/cpptools/csapp/10-7.cpp -o CMakeFiles/csapp.dir/10-7.cpp.s
 
 # Object files for target csapp
 csapp_OBJECTS = \
-"CMakeFiles/csapp.dir/main.cpp.o"
+"CMakeFiles/csapp.dir/10-7.cpp.o"
 
 # External object files for target csapp
 csapp_EXTERNAL_OBJECTS =
 
-csapp: CMakeFiles/csapp.dir/main.cpp.o
+csapp: CMakeFiles/csapp.dir/10-7.cpp.o
 csapp: CMakeFiles/csapp.dir/build.make
 csapp: CMakeFiles/csapp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/qaqorz/pikagu/cpptools/csapp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable csapp"

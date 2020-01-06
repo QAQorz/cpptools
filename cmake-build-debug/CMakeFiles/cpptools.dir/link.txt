@@ -1,0 +1,1 @@
+/usr/bin/g++  -g  -pthread CMakeFiles/cpptools.dir/main.cpp.o  -o cpptools 

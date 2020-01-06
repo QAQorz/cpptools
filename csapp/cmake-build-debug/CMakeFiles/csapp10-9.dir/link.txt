@@ -1,0 +1,1 @@
+/usr/bin/g++  -g  -pthread CMakeFiles/csapp10-9.dir/10-9.cpp.o CMakeFiles/csapp10-9.dir/csapp.c.o  -o csapp10-9 

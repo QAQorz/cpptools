@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/qaqorz/pikagu/cpptools/csapp/main.cpp" "/home/qaqorz/pikagu/cpptools/csapp/cmake-build-debug/CMakeFiles/csapp.dir/main.cpp.o"
+  "/home/qaqorz/pikagu/cpptools/csapp/10-7.cpp" "/home/qaqorz/pikagu/cpptools/csapp/cmake-build-debug/CMakeFiles/csapp.dir/10-7.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

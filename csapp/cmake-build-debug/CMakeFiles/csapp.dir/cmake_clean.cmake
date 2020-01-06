@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/csapp.dir/main.cpp.o"
+  "CMakeFiles/csapp.dir/10-7.cpp.o"
   "csapp.pdb"
   "csapp"
 )

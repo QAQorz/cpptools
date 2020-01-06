@@ -111,44 +111,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named csapp
+# Target rules for targets named csapp10-7
 
 # Build rule for target.
-csapp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 csapp
-.PHONY : csapp
+csapp10-7: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 csapp10-7
+.PHONY : csapp10-7
 
 # fast build rule for target.
-csapp/fast:
-	$(MAKE) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/build
-.PHONY : csapp/fast
+csapp10-7/fast:
+	$(MAKE) -f CMakeFiles/csapp10-7.dir/build.make CMakeFiles/csapp10-7.dir/build
+.PHONY : csapp10-7/fast
 
-main.o: main.cpp.o
+10-7.o: 10-7.c.o
 
-.PHONY : main.o
+.PHONY : 10-7.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/main.cpp.o
-.PHONY : main.cpp.o
+10-7.c.o:
+	$(MAKE) -f CMakeFiles/csapp10-7.dir/build.make CMakeFiles/csapp10-7.dir/10-7.c.o
+.PHONY : 10-7.c.o
 
-main.i: main.cpp.i
+10-7.i: 10-7.c.i
 
-.PHONY : main.i
+.PHONY : 10-7.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/main.cpp.i
-.PHONY : main.cpp.i
+10-7.c.i:
+	$(MAKE) -f CMakeFiles/csapp10-7.dir/build.make CMakeFiles/csapp10-7.dir/10-7.c.i
+.PHONY : 10-7.c.i
 
-main.s: main.cpp.s
+10-7.s: 10-7.c.s
 
-.PHONY : main.s
+.PHONY : 10-7.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/csapp.dir/build.make CMakeFiles/csapp.dir/main.cpp.s
-.PHONY : main.cpp.s
+10-7.c.s:
+	$(MAKE) -f CMakeFiles/csapp10-7.dir/build.make CMakeFiles/csapp10-7.dir/10-7.c.s
+.PHONY : 10-7.c.s
+
+csapp.o: csapp.c.o
+
+.PHONY : csapp.o
+
+# target to build an object file
+csapp.c.o:
+	$(MAKE) -f CMakeFiles/csapp10-7.dir/build.make CMakeFiles/csapp10-7.dir/csapp.c.o
+.PHONY : csapp.c.o
+
+csapp.i: csapp.c.i
+
+.PHONY : csapp.i
+
+# target to preprocess a source file
+csapp.c.i:
+	$(MAKE) -f CMakeFiles/csapp10-7.dir/build.make CMakeFiles/csapp10-7.dir/csapp.c.i
+.PHONY : csapp.c.i
+
+csapp.s: csapp.c.s
+
+.PHONY : csapp.s
+
+# target to generate assembly for a file
+csapp.c.s:
+	$(MAKE) -f CMakeFiles/csapp10-7.dir/build.make CMakeFiles/csapp10-7.dir/csapp.c.s
+.PHONY : csapp.c.s
 
 # Help Target
 help:
@@ -157,11 +184,14 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... csapp"
+	@echo "... csapp10-7"
 	@echo "... edit_cache"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... 10-7.o"
+	@echo "... 10-7.i"
+	@echo "... 10-7.s"
+	@echo "... csapp.o"
+	@echo "... csapp.i"
+	@echo "... csapp.s"
 .PHONY : help
 
 

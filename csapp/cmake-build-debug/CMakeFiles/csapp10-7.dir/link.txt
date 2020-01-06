@@ -1,0 +1,1 @@
+/usr/bin/gcc -g  -pthread CMakeFiles/csapp10-7.dir/csapp.c.o CMakeFiles/csapp10-7.dir/10-7.c.o  -o csapp10-7 

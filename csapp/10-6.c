@@ -1,8 +1,6 @@
-#include <fcntl.h>
-#include <unistd.h>
-#include <cstdio>
-#include <cstdlib>
+#include "csapp.h"
 
+//open()返回当前没有打开的最小描述符
 int main() {
     int fd1 = open("foo.txt", O_RDONLY, 0);
     int fd2 = open("bar.txt", O_RDONLY, 0);
