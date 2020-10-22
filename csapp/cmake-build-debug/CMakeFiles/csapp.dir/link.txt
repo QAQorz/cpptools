@@ -1,1 +1,0 @@
-/usr/bin/g++  -g   CMakeFiles/csapp.dir/10-7.cpp.o  -o csapp 

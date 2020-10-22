@@ -1,3 +1,0 @@
-/home/qaqorz/pikagu/cpptools/csapp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/qaqorz/pikagu/cpptools/csapp/cmake-build-debug/CMakeFiles/csapp10-7.dir
-/home/qaqorz/pikagu/cpptools/csapp/cmake-build-debug/CMakeFiles/edit_cache.dir
